@@ -13,6 +13,10 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        'orbitron': ['Orbitron', 'sans-serif'],
+        'exo': ['Exo 2', 'sans-serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -47,6 +51,13 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        // Gaming specific colors
+        'neon-cyan': "hsl(var(--neon-cyan))",
+        'neon-purple': "hsl(var(--neon-purple))",
+        'neon-blue': "hsl(var(--neon-blue))",
+        'gaming-dark': "hsl(var(--gaming-dark))",
+        'gaming-card': "hsl(var(--gaming-card))",
+        'gaming-surface': "hsl(var(--gaming-surface))",
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
